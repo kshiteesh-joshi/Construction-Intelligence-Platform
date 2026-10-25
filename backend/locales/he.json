@@ -1503,5 +1503,11 @@
       "followed_up_missing": "שינוי {seq} מסומן כרלוונטי אך אין לו הערה, RFI, ענן או סימון למדידה חוזרת.",
       "followed_up_hint": "הוסיפו הערה לשינוי, פתחו RFI או ענן, או סמנו את הכמויות שבתוכו למדידה חוזרת."
     }
+  },
+  "pdf_footer": {
+    "page_of": "עמוד {page} מתוך {total}",
+    "page": "עמוד {page}",
+    "printed": "הודפס: {timestamp}",
+    "generated": "נוצר: {date}"
   }
 }

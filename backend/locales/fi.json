@@ -1358,5 +1358,11 @@
         }
       }
     }
+  },
+  "pdf_footer": {
+    "page_of": "Sivu {page} / {total}",
+    "page": "Sivu {page}",
+    "printed": "Tulostettu: {timestamp}",
+    "generated": "Luotu: {date}"
   }
 }

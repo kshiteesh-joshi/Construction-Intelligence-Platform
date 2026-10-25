@@ -1479,5 +1479,11 @@
       "followed_up_missing": "Änderung {seq} ist als relevant markiert, hat aber keinen Kommentar, keine RFI, keine Markierung und kein Neuaufmaß-Kennzeichen.",
       "followed_up_hint": "Kommentieren Sie die Änderung, erstellen Sie eine RFI oder Markierung oder kennzeichnen Sie die darin enthaltenen Mengen zum Neuaufmessen."
     }
+  },
+  "pdf_footer": {
+    "page_of": "Seite {page} von {total}",
+    "page": "Seite {page}",
+    "printed": "Gedruckt: {timestamp}",
+    "generated": "Erstellt: {date}"
   }
 }

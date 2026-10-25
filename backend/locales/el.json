@@ -1358,5 +1358,11 @@
         }
       }
     }
+  },
+  "pdf_footer": {
+    "page_of": "Σελίδα {page} από {total}",
+    "page": "Σελίδα {page}",
+    "printed": "Εκτυπώθηκε: {timestamp}",
+    "generated": "Δημιουργήθηκε: {date}"
   }
 }

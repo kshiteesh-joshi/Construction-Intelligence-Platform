@@ -1503,5 +1503,11 @@
       "followed_up_missing": "Change {seq} is marked relevant but has no comment, RFI, markup or re-measure flag.",
       "followed_up_hint": "Comment on the change, raise an RFI or markup, or flag the quantities inside it for re-measure."
     }
+  },
+  "pdf_footer": {
+    "page_of": "Page {page} of {total}",
+    "page": "Page {page}",
+    "printed": "Printed: {timestamp}",
+    "generated": "Generated: {date}"
   }
 }

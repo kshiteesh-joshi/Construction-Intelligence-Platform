@@ -1358,5 +1358,11 @@
         }
       }
     }
+  },
+  "pdf_footer": {
+    "page_of": "Pagina {page} din {total}",
+    "page": "Pagina {page}",
+    "printed": "Tipărit: {timestamp}",
+    "generated": "Generat: {date}"
   }
 }

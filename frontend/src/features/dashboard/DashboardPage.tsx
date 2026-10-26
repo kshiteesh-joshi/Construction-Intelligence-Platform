@@ -128,6 +128,9 @@ const SubmittalsPendingCard = lazy(() =>
 const GuaranteesSummaryCard = lazy(() =>
   import('@/features/guarantees/GuaranteesSummaryCard').then((m) => ({ default: m.GuaranteesSummaryCard })),
 );
+const WipSummaryCard = lazy(() =>
+  import('@/features/wip_report/WipSummaryCard').then((m) => ({ default: m.WipSummaryCard })),
+);
 const InspectionsQualityCard = lazy(() =>
   import('./InspectionsQualityCard').then((m) => ({ default: m.InspectionsQualityCard })),
 );
@@ -165,6 +168,7 @@ const WIDGET_NULL_FALLBACK = new Set<string>([
   'punch_quality',
   'guarantees_summary',
   'on_site_now',
+  'wip_summary',
   'weather_site',
   'labour_cost',
   'latest_photos',
@@ -2690,6 +2694,7 @@ function DashboardPageInner() {
     punch_quality: <PunchListQualityCard />,
     guarantees_summary: <GuaranteesSummaryCard />,
     on_site_now: <OnSiteNowCard />,
+    wip_summary: <WipSummaryCard />,
 
     // Never in WIDGET_NULL_FALLBACK: unlike the delivery cards above, this one
     // always resolves to something. A deployment with no pack applied is the

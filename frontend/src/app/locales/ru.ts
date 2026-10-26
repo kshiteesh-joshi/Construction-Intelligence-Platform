@@ -55200,6 +55200,8 @@ const resource = {
     "nav.packs": "Пакеты",
     "nav.cutting": "Оптимизация раскроя",
     "nav.drawing_compare": "Сравнение ревизий",
+    "nav.pinned_move_up": "Поднять «{{item}}» выше",
+    "nav.pinned_move_down": "Опустить «{{item}}» ниже",
     "sidebar.group.learn": "Обучение",
     "sidebar.learn.hide": "Скрыть видео руководства и кейсы применения",
     "sidebar.learn.hide_short": "Скрыть",

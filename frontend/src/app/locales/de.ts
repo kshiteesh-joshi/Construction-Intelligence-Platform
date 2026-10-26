@@ -54716,6 +54716,8 @@ const resource = {
     "nav.packs": "Pakete",
     "nav.cutting": "Zuschnittoptimierung",
     "nav.drawing_compare": "Revisionsvergleich",
+    "nav.pinned_move_up": "{{item}} nach oben verschieben",
+    "nav.pinned_move_down": "{{item}} nach unten verschieben",
     "sidebar.group.learn": "Lernen",
     "sidebar.learn.hide": "Videoanleitungen und Anwendungsfälle ausblenden",
     "sidebar.learn.hide_short": "Ausblenden",

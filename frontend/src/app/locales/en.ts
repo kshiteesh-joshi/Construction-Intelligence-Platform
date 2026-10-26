@@ -46267,6 +46267,8 @@ const resource = {
     "nav.packs": "Packs",
     "nav.cutting": "Cutting Optimisation",
     "nav.drawing_compare": "Revision compare",
+    "nav.pinned_move_up": "Move {{item}} up",
+    "nav.pinned_move_down": "Move {{item}} down",
     "sidebar.group.learn": "Learn",
     "sidebar.learn.hide": "Hide video guides & use cases",
     "sidebar.learn.hide_short": "Hide",

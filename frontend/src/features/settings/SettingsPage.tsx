@@ -13,6 +13,7 @@ import { ModulesSettings } from './ModulesSettings';
 import { SettingsTeamPanel } from './SettingsTeamPanel';
 import { CompanyDocumentsSettings } from './CompanyDocumentsSettings';
 import { WebhookLeads } from './WebhookLeads';
+import { McpSettingsPanel } from '@/features/mcp';
 import { DesktopServerCard } from './DesktopServerCard';
 import { TextSizeSetting } from './TextSizeSetting';
 import { AppearanceStyleCard } from './AppearanceStyleCard';
@@ -1588,6 +1589,7 @@ export function SettingsPage() {
     'bim-cad': 'converters',
     'bim_cad': 'converters',
     cad: 'converters',
+    mcp: 'integrations',
   };
   // Audit log is Manager+ only. Hide the tab for everyone else so a viewer
   // never lands on a section that 403s on load. The backend `audit.view`
@@ -2174,6 +2176,7 @@ export function SettingsPage() {
                 </CardContent>
               </Card>
               <WebhookLeads />
+              <McpSettingsPanel />
             </div>
           )}
 

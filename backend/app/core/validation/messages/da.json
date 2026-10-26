@@ -1359,5 +1359,15 @@
       "fail": "Feltet '{field}' er ændret både på enheden og på serveren og har ingen løsning",
       "suggestion": "Vælg din egen, serverens eller en manuel værdi for feltet, og send sammenfletningen igen"
     }
+  },
+  "boq_branch": {
+    "diverged_from_main": {
+      "fail": "Denne variant har været åben i {days} dage, og hovedoverslaget er ændret i {changes} positioner, siden den blev oprettet",
+      "suggestion": "Overfør hovedoverslagets ændringer til varianten, flet varianten eller arkivér den"
+    },
+    "unresolved_conflicts": {
+      "fail": "Position {ordinal} \"{description}\" er ændret både i denne variant og i hovedoverslaget",
+      "suggestion": "Åbn dialogen til fletning og afgør, hvilken version af positionen der beholdes"
+    }
   }
 }

@@ -1359,5 +1359,15 @@
       "fail": "'{field}' alanı hem cihazda hem sunucuda değiştirildi ve bir çözüm seçilmedi",
       "suggestion": "Bu alan için kendi değerinizi, sunucudaki değeri veya elle girilen bir değeri seçin ve birleştirmeyi yeniden gönderin"
     }
+  },
+  "boq_branch": {
+    "diverged_from_main": {
+      "fail": "Dal {days} gündür açık ve ana keşif, dal oluşturulduğundan beri {changes} pozda değişti",
+      "suggestion": "Ana keşfin değişikliklerini dala aktarın, dalı birleştirin veya arşivleyin"
+    },
+    "unresolved_conflicts": {
+      "fail": "{ordinal} nolu \"{description}\" pozu hem bu dalda hem de ana keşifte değiştirildi",
+      "suggestion": "Birleştirme penceresini açın ve pozun hangi sürümünün korunacağına karar verin"
+    }
   }
 }

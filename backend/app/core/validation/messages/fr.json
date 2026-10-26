@@ -1359,5 +1359,15 @@
       "fail": "Le champ '{field}' a été modifié à la fois sur l'appareil et sur le serveur et n'a pas de résolution",
       "suggestion": "Choisissez votre valeur, celle du serveur ou une valeur manuelle pour ce champ, puis renvoyez la fusion"
     }
+  },
+  "boq_branch": {
+    "diverged_from_main": {
+      "fail": "Cette variante est ouverte depuis {days} jours et l'estimatif principal a changé sur {changes} postes depuis sa création",
+      "suggestion": "Reportez les modifications de l'estimatif principal dans la variante, fusionnez la variante ou archivez-la"
+    },
+    "unresolved_conflicts": {
+      "fail": "Le poste {ordinal} « {description} » a été modifié à la fois dans cette variante et dans l'estimatif principal",
+      "suggestion": "Ouvrez la boîte de fusion et décidez quelle version du poste conserver"
+    }
   }
 }

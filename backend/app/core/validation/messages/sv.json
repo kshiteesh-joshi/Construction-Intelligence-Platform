@@ -1359,5 +1359,15 @@
       "fail": "Fältet '{field}' har ändrats både på enheten och på servern och saknar lösning",
       "suggestion": "Välj ditt eget värde, serverns värde eller ett manuellt värde för fältet och skicka sammanfogningen igen"
     }
+  },
+  "boq_branch": {
+    "diverged_from_main": {
+      "fail": "Den här varianten har varit öppen i {days} dagar och huvudkalkylen har ändrats i {changes} poster sedan den skapades",
+      "suggestion": "För över huvudkalkylens ändringar till varianten, slå samman varianten eller arkivera den"
+    },
+    "unresolved_conflicts": {
+      "fail": "Post {ordinal} \"{description}\" har ändrats både i den här varianten och i huvudkalkylen",
+      "suggestion": "Öppna dialogen för sammanslagning och avgör vilken version av posten som ska behållas"
+    }
   }
 }

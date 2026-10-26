@@ -1359,5 +1359,15 @@
       "fail": "Pole '{field}' zmieniono zarówno na urządzeniu, jak i na serwerze i nie wybrano rozwiązania",
       "suggestion": "Wybierz dla tego pola własną wartość, wartość z serwera lub wartość ręczną i wyślij scalenie ponownie"
     }
+  },
+  "boq_branch": {
+    "diverged_from_main": {
+      "fail": "Gałąź jest otwarta od {days} dni, a kosztorys główny zmienił się od jej utworzenia w {changes} pozycjach",
+      "suggestion": "Przenieś zmiany kosztorysu głównego do gałęzi, scal gałąź albo ją zarchiwizuj"
+    },
+    "unresolved_conflicts": {
+      "fail": "Pozycja {ordinal} „{description}” została zmieniona zarówno w tej gałęzi, jak i w kosztorysie głównym",
+      "suggestion": "Otwórz okno scalania i zdecyduj, którą wersję pozycji zachować"
+    }
   }
 }

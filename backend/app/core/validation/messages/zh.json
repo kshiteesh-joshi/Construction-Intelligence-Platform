@@ -1359,5 +1359,15 @@
       "fail": "字段“{field}”在设备和服务器上都被修改过，且尚未选择处理方式",
       "suggestion": "请为该字段选择我的值、服务器的值或手动输入的值，然后重新发送合并"
     }
+  },
+  "boq_branch": {
+    "diverged_from_main": {
+      "fail": "此分支已开启 {days} 天，自创建以来主估算已有 {changes} 个清单项发生变更",
+      "suggestion": "将主估算的变更带入分支、合并该分支，或将其归档"
+    },
+    "unresolved_conflicts": {
+      "fail": "清单项 {ordinal}“{description}”在此分支和主估算中都被修改",
+      "suggestion": "打开合并对话框，决定保留该清单项的哪个版本"
+    }
   }
 }

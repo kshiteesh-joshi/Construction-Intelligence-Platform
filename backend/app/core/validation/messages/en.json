@@ -1359,5 +1359,15 @@
       "fail": "Field '{field}' was changed on both the device and the server and has no resolution",
       "suggestion": "Choose mine, theirs or a manual value for this field, then send the merge again"
     }
+  },
+  "boq_branch": {
+    "diverged_from_main": {
+      "fail": "This branch has been open for {days} days and the main estimate has changed in {changes} positions since it was created",
+      "suggestion": "Carry the main estimate's changes into the branch, merge the branch, or archive it"
+    },
+    "unresolved_conflicts": {
+      "fail": "Position {ordinal} \"{description}\" was changed both in this branch and in the main estimate",
+      "suggestion": "Open the merge dialog and decide which version of the position to keep"
+    }
   }
 }

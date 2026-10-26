@@ -1359,5 +1359,15 @@
       "fail": "Kolom '{field}' diubah di perangkat dan di server dan belum ada resolusi",
       "suggestion": "Pilih nilai Anda, nilai server, atau nilai manual untuk kolom ini, lalu kirim ulang penggabungan"
     }
+  },
+  "boq_branch": {
+    "diverged_from_main": {
+      "fail": "Cabang ini sudah terbuka selama {days} hari dan estimasi utama berubah pada {changes} item sejak cabang dibuat",
+      "suggestion": "Bawa perubahan estimasi utama ke cabang, gabungkan cabang, atau arsipkan"
+    },
+    "unresolved_conflicts": {
+      "fail": "Item {ordinal} \"{description}\" diubah di cabang ini dan juga di estimasi utama",
+      "suggestion": "Buka dialog penggabungan dan putuskan versi item mana yang dipertahankan"
+    }
   }
 }

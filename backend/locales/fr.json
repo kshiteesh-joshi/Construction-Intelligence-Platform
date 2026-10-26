@@ -2250,5 +2250,11 @@
     "rule_action_unpriced": "L'action pour '{name}' en {year} n'a pas de coût unitaire",
     "rule_action_unpriced_fix": "Saisissez un coût unitaire pour qu'il figure dans les totaux du plan",
     "rule_defect_incomplete": "La cotation de '{name}' appelle des travaux mais n'indique ni gravité ni étendue"
+  },
+  "ai": {
+    "advisor": {
+      "model_outdated": "Le nom du modèle d'IA est obsolète ou indisponible. Ouvrez Paramètres > IA et indiquez un nom de modèle valide.",
+      "not_configured": "IA non configurée. Veuillez ajouter votre clé API dans les Paramètres."
+    }
   }
 }

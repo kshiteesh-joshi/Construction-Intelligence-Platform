@@ -2255,5 +2255,11 @@
     "rule_action_unpriced": "La acción de '{name}' en {year} no tiene coste unitario",
     "rule_action_unpriced_fix": "Introduzca un coste unitario para que los totales del plan lo incluyan",
     "rule_defect_incomplete": "La valoración de '{name}' exige trabajos pero no registra gravedad ni extensión"
+  },
+  "ai": {
+    "advisor": {
+      "model_outdated": "El nombre del modelo de IA está desactualizado o no disponible. Abra Configuración > IA e indique un nombre de modelo válido.",
+      "not_configured": "IA no configurada. Agregue su clave API en Configuración."
+    }
   }
 }

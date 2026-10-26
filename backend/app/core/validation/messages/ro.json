@@ -1411,5 +1411,19 @@
       "started_without_start": "Rândul {row}: progresul este introdus fără început real.",
       "suggestion": "Verificați rândul cu șantierul înainte de a-l aplica."
     }
+  },
+  "cashflow_forecast": {
+    "negative_position": {
+      "fail": "Poziția de numerar scade la minus {amount} în {period}, sub pragul de finanțare de {threshold}.",
+      "suggestion": "Asigurați finanțarea înainte de {period}, aduceți încasările mai devreme sau amânați plățile."
+    },
+    "receipt_overdue": {
+      "fail": "{document}: {amount} era scadent la {due} și este încă deschis ({days} zile întârziere).",
+      "suggestion": "Urmăriți plata de la client sau modificați data estimată în prognoză."
+    },
+    "forecast_missing": {
+      "fail": "{project} este activ, dar nu are contract, factură, comandă, subcontract sau plan din care să se prognozeze fluxul de numerar.",
+      "suggestion": "Introduceți contractul cu clientul și planul său de plăți sau un flux de numerar planificat în modelul de costuri."
+    }
   }
 }

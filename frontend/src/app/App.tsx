@@ -316,6 +316,16 @@ const GuaranteesExposurePage = lazy(() =>
     default: m.GuaranteesExposurePage,
   }))
 );
+const AccountingSyncPage = lazy(() =>
+  import('@/features/accounting-sync/AccountingSyncPage').then((m) => ({
+    default: m.AccountingSyncPage,
+  }))
+);
+const AccountingSyncOAuthCallbackPage = lazy(() =>
+  import('@/features/accounting-sync/OAuthCallbackPage').then((m) => ({
+    default: m.OAuthCallbackPage,
+  }))
+);
 const MoCPage = lazy(() =>
   import('@/features/moc/MoCPage').then((m) => ({ default: m.MoCPage }))
 );
@@ -1561,6 +1571,8 @@ export default function App() {
         <Route path="/projects/:projectId/guarantees/:guaranteeId" element={<P title="Guarantee"><GuaranteeDetailPage /></P>} />
         <Route path="/portfolio/guarantees/register" element={<P title="Guarantees"><GuaranteesPage /></P>} />
         <Route path="/portfolio/guarantees" element={<P title="Guarantee exposure"><GuaranteesExposurePage /></P>} />
+        <Route path="/accounting-sync" element={<P title="Accounting sync"><AccountingSyncPage /></P>} />
+        <Route path="/accounting-sync/oauth/callback" element={<P title="Accounting sync"><AccountingSyncOAuthCallbackPage /></P>} />
         <Route path="/projects/:projectId/moc" element={<P title="Management of Change"><MoCPage /></P>} />
         <Route path="/moc" element={<P title="Management of Change"><MoCPage /></P>} />
         {/* Construction Control (QA/QC) - acceptance criteria, inspections,

@@ -143,6 +143,9 @@ const RegionalPackCard = lazy(() =>
 const DashboardMarketCasesCard = lazy(() =>
   import('./DashboardMarketCasesCard').then((m) => ({ default: m.DashboardMarketCasesCard })),
 );
+const AccountingSyncCard = lazy(() =>
+  import('@/features/accounting-sync/AccountingSyncCard').then((m) => ({ default: m.AccountingSyncCard })),
+);
 const ValidationPortfolioCard = lazy(() =>
   import('./ValidationPortfolioCard').then((m) => ({ default: m.ValidationPortfolioCard })),
 );
@@ -164,6 +167,7 @@ const WIDGET_NULL_FALLBACK = new Set<string>([
   'inspections_quality',
   'punch_quality',
   'guarantees_summary',
+  'accounting_sync',
   'on_site_now',
   'weather_site',
   'labour_cost',
@@ -2580,6 +2584,9 @@ function DashboardPageInner() {
     // every project the reader can open and marks the selected one. Never in
     // WIDGET_NULL_FALLBACK, it renders its own loading, error and empty states.
     validation_portfolio: <ValidationPortfolioCard />,
+
+    // Hides itself without a connection; the status read is workspace-wide.
+    accounting_sync: <AccountingSyncCard />,
 
     map:
       projects && projects.length > 0 ? (

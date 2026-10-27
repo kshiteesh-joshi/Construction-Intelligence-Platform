@@ -133,6 +133,7 @@ _UNSET_COMBINATION = "national"
 SHIPPED_FEDERAL_COMBINATION: dict[tuple[str, str], str] = {
     ("CA", "GST"): "federal",
     ("US", "NONE"): "federal",
+    ("PK", "GST"): "federal",
 }
 
 

@@ -1800,6 +1800,9 @@
           "refunded": "İade edildi"
         }
       }
+    },
+    "furniture": {
+      "footer_page": "Sayfa {page} / {total}"
     }
   },
   "pdf_footer": {

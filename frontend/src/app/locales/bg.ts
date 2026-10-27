@@ -59128,6 +59128,13 @@ const resource = {
     "offline_sync.field_notes": "Бележки",
     "offline_sync.field_description": "Описание",
     "offline_sync.field_checklist_data": "Контролен списък",
+    "accountingSync.sync.push_selected": "Публикуване на {{count}} проверени",
+    "accountingSync.sync.push_hint_review": "Отбележете документите, които сте проверили, и ги публикувайте. Плащанията, записани във вашите книги, се връщат.",
+    "accountingSync.docs.review_all": "Маркирай всички като проверени",
+    "accountingSync.docs.review_one": "Проверен {{number}}",
+    "accountingSync.doc_source.payroll": "Заплати",
+    "accountingSync.category.payroll_cost": "Разход за заплати",
+    "accountingSync.category.payroll_liability": "Задължения за заплати",
   }
 } as { translation: Record<string, string> };
 

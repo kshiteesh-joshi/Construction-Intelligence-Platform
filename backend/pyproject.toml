@@ -186,7 +186,7 @@ dependencies = [
     # (pye57, a heavier native libE57 wheel) stays in the optional extra.
     "laspy>=2.5.0,<3",
     "lazrs>=0.6.0,<0.9",
-    "duckdb>=1.2.0,<2",
+    "duckdb>=1.2.0,<3",
     "rapidfuzz>=3.0.0,<4",
     # Imported at module load by the smart_views (signed share links) and eac
     # (safe expression evaluation) modules, so they must be base dependencies;
